@@ -1,5 +1,6 @@
 import "./App.css";
-import Home from "./CostomeHooks/APICall/Home";
+import Home from "./Formik & Yup/Home";
+// import Home from "./CostomeHooks/APICall/Home";
 // import Home from "./CostomeHooks/FormValidation/Home";
 // import Counter from "./CostomeHooks/Counter/Counter";
 // import ComA from "./Contex/ComA";
@@ -9,7 +10,7 @@ import Home from "./CostomeHooks/APICall/Home";
 function App() {
   return (
     <>
-      <div className="p-4 flex justify-center items-center text-center flex-col">
+      <div className="p-4 flex justify-center items-center  flex-col">
         {/* React.memo */}
         {/* <Home />   */}
 
@@ -26,6 +27,9 @@ function App() {
         {/* <Home />   */}
 
         {/* Custom Hook */}
+        {/* <Home /> */}
+
+        {/* Formik & Yup */}
         <Home />
       </div>
     </>
